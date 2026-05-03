@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfolio of Devika Suresh, a motivated MCA student specializing in software development. Explore projects, academic achievements, and technical skills in Python, Django, and AI/ML."
+  />
+  <meta
+    name="keywords"
+    content="Devika Suresh, MCA student, software development, portfolio, Pathanamthitta, Python, Django, AI, machine learning, web developer"
+  />
+  <meta name="author" content="Devika Suresh" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <title>Devika Suresh | MCA Student &amp; Software Developer Portfolio</title>
+
+  <!-- Open Graph: og:image is relative so it resolves on your live host. If a platform requires an absolute URL, use https://YOUR_DOMAIN/path/assets/og-image.jpg for og:image and twitter:image. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Devika Suresh — Portfolio" />
+  <meta property="og:title" content="Devika Suresh | MCA Student &amp; Software Developer Portfolio" />
+  <meta
+    property="og:description"
+    content="Portfolio of Devika Suresh, a motivated MCA student specializing in software development. Explore her projects, academic achievements, and technical skills."
+  />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="537" />
+  <meta property="og:image:alt" content="Portfolio preview: Devika Suresh, MCA student — hero, contact, and highlights." />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Devika Suresh | MCA Student &amp; Software Developer Portfolio" />
+  <meta
+    name="twitter:description"
+    content="Portfolio of Devika Suresh, a motivated MCA student specializing in software development. Explore her projects, academic achievements, and technical skills."
+  />
+  <meta name="twitter:image" content="assets/og-image.jpg" />
+  <meta name="twitter:image:alt" content="Portfolio preview: Devika Suresh, MCA student — hero, contact, and highlights." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-brand">
+          <h1>Devika Suresh</h1>
+          <p class="role">MCA Student</p>
+        </div>
+        <button
+          type="button"
+          class="contact-trigger"
+          id="contact-open-btn"
+          aria-expanded="false"
+          aria-controls="contact-panel"
+        >
+          <span class="visually-hidden">Open contact details</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+        </button>
+      </div>
+      <div class="contact-backdrop" id="contact-backdrop" aria-hidden="true"></div>
+      <div class="contact-card" id="contact-panel">
+        <h2 id="contact-dialog-title" class="visually-hidden">Contact information</h2>
+        <button type="button" class="contact-sheet__close" id="contact-close-btn" aria-label="Close contact details">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+        <p class="label">Email</p>
+        <p><a href="mailto:devikasuresh26@gmail.com">devikasuresh26@gmail.com</a></p>
+        <p class="label">Phone</p>
+        <p><a href="tel:+919744651459">+91 97446 51459</a></p>
+        <p class="label">Location</p>
+        <p>Pezhumkattil house, Prakkanam P.O., Pathanamthitta</p>
+        <a class="btn" href="mailto:devikasuresh26@gmail.com">Contact me</a>
+      </div>
+    </aside>
+
+    <main class="main">
+      <section class="hero" id="top">
+        <div>
+          <h2>Hi, I’m <span class="accent">Devika Suresh</span></h2>
+          <p class="lead">
+            A motivated MCA student seeking opportunities to apply technical skills in software development,
+            with a strong desire to contribute to a dynamic organization while continuously enhancing my
+            knowledge and abilities.
+          </p>
+          <a class="btn btn--inline" href="#projects">View projects</a>
+        </div>
+        <div class="hero-visual">
+          <img
+            src="assets/devika-suresh.png"
+            alt="Professional headshot of Devika Suresh."
+            width="260"
+            height="260"
+            decoding="async"
+          />
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Highlights">
+        <div class="stat">
+          <strong>2</strong>
+          <span>Projects showcased</span>
+        </div>
+        <div class="stat">
+          <strong>76.8</strong>
+          <span>Current MCA SGPA</span>
+        </div>
+        <div class="stat">
+          <strong>2026</strong>
+          <span>MCA (in progress)</span>
+        </div>
+      </section>
+
+      <p class="section-title">Capabilities</p>
+      <h3 class="section-heading" id="skills">Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card featured">
+          <h4>Technical</h4>
+          <p>Python, Django, HTML, CSS, MySQL, Git, JavaScript</p>
+        </div>
+        <div class="skill-card">
+          <h4>Soft skills</h4>
+          <p>Communication, adaptability, teamwork</p>
+        </div>
+        <div class="skill-card">
+          <h4>Focus areas</h4>
+          <p>Web development, AI/ML applications, real-time systems</p>
+        </div>
+        <div class="skill-card">
+          <h4>Career objective</h4>
+          <p>Apply and grow in software development within a collaborative, dynamic team.</p>
+        </div>
+      </div>
+
+      <p class="section-title">Background</p>
+      <h3 class="section-heading" id="experience">Experience</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dates">Jan 2026 - Mar 2026</div>
+          <div>
+            <h4>AI/ML Intern</h4>
+            <p class="org">Scipy technologies</p>
+            <ul>
+              <li>Developed a real-time violence detection system using YOLOv11.</li>
+              <li>Implemented human detection and pose estimation from video streams.</li>
+              <li>Designed algorithms to identify violent actions using motion and keypoint analysis.</li>
+              <li>Integrated a real-time alert system with visualization and event logging.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dates">Oct 2023 - Mar 2024</div>
+          <div>
+            <h4>Python Django Intern</h4>
+            <p class="org">Infodawn</p>
+            <ul>
+              <li>Learned Python basics and practiced HTML &amp; CSS fundamentals.</li>
+              <li>Built small practice programs and web pages.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="section-title">Academics</p>
+      <h3 class="section-heading" id="education">Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dates">2024 - 2026</div>
+          <div>
+            <h4>MCA</h4>
+            <p class="org">Musaliar College of Engineering &amp; Technology, Pathanamthitta</p>
+            <ul>
+              <li>Current SGPA: 76.8</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dates">2020 - 2023</div>
+          <div>
+            <h4>B.Sc. Physics</h4>
+            <p class="org">St. Thomas College, Kozhencherry</p>
+            <ul>
+              <li>SGPA: 72.3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="dates">2018 - 2020</div>
+          <div>
+            <h4>Higher Secondary</h4>
+            <p class="org">Catholicate HSS, Pathanamthitta</p>
+            <ul>
+              <li>Marks percentage: 73%</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <p class="section-title">Work</p>
+      <h3 class="section-heading" id="projects">Projects</h3>
+      <div class="projects">
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="thumb">
+              <img
+                src="assets/project-yolov11.jpg"
+                alt="Infographic: real-time human pose estimation and violence detection with YOLOv11 — live detection, pose keypoints, and alert workflow."
+                width="1024"
+                height="558"
+                decoding="async"
+                loading="lazy"
+              />
+            </div>
+            <div class="body">
+              <p class="meta">Jan 2026 - Mar 2026</p>
+              <h4>Real-time human pose estimation &amp; violence detection (YOLOv11)</h4>
+              <p>
+                AI-based surveillance using Python and YOLOv11 to detect humans, estimate pose, and identify
+                violent activity from live or recorded video. Analyzes keypoints and motion to classify
+                violence and trigger alerts with real-time visualization and event logging for safer
+                monitoring environments.
+              </p>
+              <p class="tags"><strong>Stack:</strong> Python, Git, YOLOv11</p>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="thumb">
+              <img
+                src="assets/project-missing-children.jpg"
+                alt="Infographic: missing children tracking and support platform — police portal, public engagement, family resources, and tech stack."
+                width="1024"
+                height="558"
+                decoding="async"
+                loading="lazy"
+              />
+            </div>
+            <div class="body">
+              <p class="meta">Jun 2025 - Oct 2025</p>
+              <h4>Missing children tracking &amp; support platform</h4>
+              <p>
+                Django-based platform for missing children: police can publish notices, the public can share
+                hints, and families access counselling resources. Focuses on structured data and workflow to
+                improve discovery and support.
+              </p>
+              <p class="tags"><strong>Stack:</strong> Python, Django, Git, MySQL</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <footer class="footer-grid" id="contact">
+        <div>
+          <h4>How I can help</h4>
+          <ul class="footer-list">
+            <li>Web apps with Django and modern front ends</li>
+            <li>Python tooling and Git-based collaboration</li>
+            <li>AI/ML prototypes for detection and analytics</li>
+            <li>Clear communication and teamwork on cross-functional tasks</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <div class="footer-contact">
+            <p><a href="mailto:devikasuresh26@gmail.com">devikasuresh26@gmail.com</a></p>
+            <p><a href="tel:+919744651459">+91 97446 51459</a></p>
+            <p>Pezhumkattil house, Prakkanam P.O., Pathanamthitta</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </div>
+  <p class="site-footer">© Devika Suresh</p>
+  <script>
+    (function () {
+      var mq = window.matchMedia("(max-width: 900px)");
+      var openBtn = document.getElementById("contact-open-btn");
+      var closeBtn = document.getElementById("contact-close-btn");
+      var backdrop = document.getElementById("contact-backdrop");
+      var panel = document.getElementById("contact-panel");
+
+      function isMobileLayout() {
+        return mq.matches;
+      }
+
+      function setPanelA11y(open) {
+        if (!isMobileLayout()) {
+          panel.removeAttribute("aria-hidden");
+          return;
+        }
+        if (open) {
+          panel.removeAttribute("aria-hidden");
+        } else {
+          panel.setAttribute("aria-hidden", "true");
+        }
+      }
+
+      function openSheet() {
+        if (!isMobileLayout()) return;
+        document.body.classList.add("contact-open");
+        openBtn.setAttribute("aria-expanded", "true");
+        setPanelA11y(true);
+      }
+
+      function closeSheet() {
+        document.body.classList.remove("contact-open");
+        openBtn.setAttribute("aria-expanded", "false");
+        setPanelA11y(false);
+      }
+
+      function onOpenClick() {
+        if (!isMobileLayout()) return;
+        if (document.body.classList.contains("contact-open")) {
+          closeSheet();
+        } else {
+          openSheet();
+        }
+      }
+
+      openBtn.addEventListener("click", onOpenClick);
+      closeBtn.addEventListener("click", closeSheet);
+      backdrop.addEventListener("click", closeSheet);
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && document.body.classList.contains("contact-open")) {
+          closeSheet();
+        }
+      });
+      mq.addEventListener("change", function () {
+        if (!isMobileLayout()) {
+          closeSheet();
+          setPanelA11y(false);
+        } else if (!document.body.classList.contains("contact-open")) {
+          setPanelA11y(false);
+        }
+      });
+
+      if (isMobileLayout() && !document.body.classList.contains("contact-open")) {
+        setPanelA11y(false);
+      }
+    })();
+  </script>
+</body>
+</html>
